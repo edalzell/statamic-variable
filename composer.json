@@ -1,0 +1,19 @@
+{
+    "name": "edalzell/variable",
+    "autoload": {
+        "psr-4": {
+            "Edalzell\\Variable\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Variable",
+            "description": "Variable addon"
+        },
+        "laravel": {
+            "providers": [
+                "Edalzell\\Variable\\ServiceProvider"
+            ]
+        }
+    }
+}
