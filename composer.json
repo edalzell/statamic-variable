@@ -1,5 +1,7 @@
 {
     "name": "edalzell/variable",
+    "description": "Set variables in Antlers",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Edalzell\\Variable\\": "src"
