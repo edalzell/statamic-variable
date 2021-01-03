@@ -3,7 +3,7 @@
     "description": "Set variables in Antlers",
     "license": "MIT",
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "laravel/framework": "^7.0 || ^8.0",
         "statamic/cms": "^3.0"
     },
