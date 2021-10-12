@@ -12,7 +12,7 @@ From your site folder, run `composer require edalzell/variable`
 To set a variable, pass in a value:
 
 ```
-{{ variable:var_to_set :value="in_scope_variable "}}
+{{ variable:var_to_set value="in_scope_variable "}}
 ```
 
 To get it:
