@@ -9,13 +9,19 @@ From your site folder, run `composer require edalzell/variable`
 
 ## Usage
 
-To set a variable, pass in a value:
+To set a custom variable within a scope, you can pass the whole scope as the value like so:
 
 ```
-{{ variable:var_to_set value="in_scope_variable "}}
+{{ variable:var_to_set :value="in_scope_variable "}}
 ```
 
-To get it:
+To set a custom string as your value:
+
+```
+{{ variable:var_to_set value="Hello World!" }}
+```
+
+To return your custom variable value, you can do this:
 
 ```
 {{ variable:var_to_set default="default value" }}
